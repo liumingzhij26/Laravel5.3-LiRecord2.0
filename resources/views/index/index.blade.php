@@ -19,10 +19,10 @@
                             </label>
                             <textarea class="form-control" disabled name="text" id="text" rows="5"></textarea>
                             @else
-                                <label for="text"><i class="fa fa-bolt"></i>
-                                <span class="display-inline cursor-pointer font-weight-400">请在下方输入你想要说的话，你还可以输入<span class="remaining_number">255</span>个字符</span>
+{{--                                <label for="text"><i class="fa fa-bolt"></i>--}}
+{{--                                <span class="display-inline cursor-pointer font-weight-400">请在下方输入你想要说的话，你还可以输入<span class="remaining_number">255</span>个字符</span>--}}
                             </label>
-                            <textarea class="form-control" name="text" id="text" rows="5"></textarea>
+                            <textarea class="form-control" name="text" id="text" rows="5" placeholder="请在下方输入你想要说的话，你还可以输入255个字符"></textarea>
                             @endif
                         @else
                             <label for="text"><i class="fa fa-bolt"></i>
